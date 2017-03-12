@@ -26,12 +26,12 @@ The first team each ES6 feature appears in the code, you'll find a comment on th
 
 The code makes use of the following features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest):
 
-- constants
-- block-scoped variables
-- arrow functions
-- object destructuring
-- the spread operator
-- default parameters
-- template literals
-- class definitions
-- the Set data structure
+- [constants](http://es6-features.org/#Constants)
+- [block-scoped variables]http://es6-features.org/#BlockScopedVariables()
+- [arrow functions](http://es6-features.org/#ExpressionBodies)
+- [object destructuring](http://es6-features.org/#ParameterContextMatching)
+- [the spread operator](http://es6-features.org/#SpreadOperator)
+- [default parameter values](http://es6-features.org/#DefaultParameterValues)
+- [template literals](http://es6-features.org/#StringInterpolation)
+- [class definitions](http://es6-features.org/#ClassDefinition)
+- [the Set data structure](http://es6-features.org/#SetDataStructure)
