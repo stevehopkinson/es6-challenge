@@ -42,6 +42,6 @@ If you're not feeling hugely comfortable with ES6, then focus on understanding a
 
 If you managed to replace all of the features, congratulations! You should now be able to run the code in any web browser and see the same results as you'd get in Node. Give yourself a pat on the back for your services to accessibility. 
 
-Did you replace the `const`s and `let`s with `var`s? Can you think of any issues with doing that, and what might you have done differently to avoid it?
+Did you replace the `const`s and `let`s with `var`s? Can you think of any issues with doing that? What could you do differently to avoid them?
 
 If you have time remaining, read up on a piece of software called [Babel](https://babeljs.io/) – you'll be hearing a lot more about it in future.
