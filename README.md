@@ -18,7 +18,7 @@ Never assume that your code will run in an environment that supports ES6 syntax.
 
 ## Instructions
 
-Don't worry – you don't need to know any ES6 to complete this challenge. Everything you need to know is referenced with comments in the code.
+Don't worry – you don't need to know any ES6 already. Everything you need to know is referenced with comments in the code.
 
 Before you change anything, run the code in Node to see the output. None of the changes you make should affect the output of your code. If you're curious, you might also want to try running the code in a browser that doesn't support ES6 features (try Safari or Internet Explorer) to see what happens.
 
