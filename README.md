@@ -22,7 +22,7 @@ Before you change anything, run the code in Node to see the output. None of the 
 
 You probably won't have time to change all of the ES6 syntax in an hour, so don't feel that you're under pressure to finish everything – this isn't a real job application! Instead, pick a few features that you're interested in, try to rewrite them in ES5, then run the file again in Node to check that the output hasn't changed. (Node will happily run code that contains a mixture of ES5 and ES6 syntax, so you don't have to replace every single ES6 feature before you can test your changes.)
 
-The first team each ES6 feature appears in the code, you'll find a comment on the previous line telling you what features to look for, with a link to the relevant page on [http://es6-features.org](). It's up to you to identify any subsequent times that the feature gets used – but if you're running short on time, focus on replacing a variety of different ES6 features, rather than replacing the same feature in several places.
+The first time each ES6 feature appears in the code, you'll find a comment on the previous line telling you what features to look for, with a link to the relevant page on [http://es6-features.org](). It's up to you to identify any subsequent times that the feature gets used – but if you're running short on time, focus on replacing a variety of different ES6 features, rather than replacing the same feature in several places.
 
 The code makes use of the following features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest):
 
