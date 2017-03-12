@@ -27,7 +27,7 @@ The first team each ES6 feature appears in the code, you'll find a comment on th
 The code makes use of the following features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest):
 
 - [constants](http://es6-features.org/#Constants)
-- [block-scoped variables]http://es6-features.org/#BlockScopedVariables()
+- [block-scoped variables](http://es6-features.org/#BlockScopedVariables)
 - [arrow functions](http://es6-features.org/#ExpressionBodies)
 - [object destructuring](http://es6-features.org/#ParameterContextMatching)
 - [the spread operator](http://es6-features.org/#SpreadOperator)
