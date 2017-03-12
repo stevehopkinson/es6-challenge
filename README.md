@@ -36,7 +36,7 @@ The code makes use of the following features (ordered by how difficult it will b
 - [class definitions](http://es6-features.org/#ClassDefinition)
 - [the Set data structure](http://es6-features.org/#SetDataStructure)
 
-If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the list – don't worry about the bottom half of the list. However, if you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list - the two at the bottom are particularly challenging.
+If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the list – don't worry about the bottom half of the list, as this isn't a race. If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
 
 ## Bonus
 
