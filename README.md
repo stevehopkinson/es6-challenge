@@ -27,7 +27,7 @@ The first team each ES6 feature appears in the code, you'll find a comment on th
 The code makes use of the following features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest):
 
 - [constants](http://es6-features.org/#Constants) (it's fine to replace these with a simple `var`)
-- [block-scoped variables](http://es6-features.org/#BlockScopedVariables) (like constants, you can replace these with a 'var')
+- [block-scoped variables](http://es6-features.org/#BlockScopedVariables) (like constants, you can replace these with a `var`)
 - [arrow functions](http://es6-features.org/#ExpressionBodies)
 - [object destructuring](http://es6-features.org/#ParameterContextMatching)
 - [the spread operator](http://es6-features.org/#SpreadOperator)
@@ -40,4 +40,8 @@ If you're not feeling hugely comfortable with ES6, then focus on understanding a
 
 ## Bonus
 
-If you managed to replace all of the features, congratulations! You should now be able to run the code in any web browser and see the same results as you'd get in Node. Give yourself a pat on the back for your services to accessibility. If you have time remaining, read up on a piece of software called [Babel](https://babeljs.io/) – you'll be hearing a lot more about it in future.
+If you managed to replace all of the features, congratulations! You should now be able to run the code in any web browser and see the same results as you'd get in Node. Give yourself a pat on the back for your services to accessibility. 
+
+Did you replace the `const`s and `let`s with `var`s? Can you think of any issues with doing that, and what might you have done differently to avoid it?
+
+If you have time remaining, read up on a piece of software called [Babel](https://babeljs.io/) – you'll be hearing a lot more about it in future.
