@@ -31,10 +31,10 @@ The code makes use of the following features (ordered by how difficult it will b
 - [constants](http://es6-features.org/#Constants) (it's fine to replace these with a simple `var`)
 - [block-scoped variables](http://es6-features.org/#BlockScopedVariables) (like constants, you can replace these with a `var`)
 - [arrow functions](http://es6-features.org/#ExpressionBodies)
-- [object destructuring](http://es6-features.org/#ParameterContextMatching)
 - [the spread operator](http://es6-features.org/#SpreadOperator)
-- [default parameter values](http://es6-features.org/#DefaultParameterValues)
 - [template literals](http://es6-features.org/#StringInterpolation)
+- [object destructuring](http://es6-features.org/#ParameterContextMatching)
+- [default parameter values](http://es6-features.org/#DefaultParameterValues)
 - [class definitions](http://es6-features.org/#ClassDefinition)
 - [the Set data structure](http://es6-features.org/#SetDataStructure)
 
