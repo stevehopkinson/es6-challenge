@@ -19,7 +19,7 @@ Never assume that your code will run in an environment that supports ES6 syntax.
 ## Learning outcomes
 
 - Recognising some common ES6 features and understanding how they relate to familiar ES5 features.
-- Making non-breaking changes in an unfamiliar codebase. 
+- Making non-breaking changes in an unfamiliar codebase without getting lost in the overall structure. 
 
 ## Instructions
 
