@@ -1,17 +1,17 @@
-// Replace const (http://es6-features.org/#Constants) and arrow functions (http://es6-features.org/#ExpressionBodies)
+// Replace const and arrow functions
 const assertEquals = (expected, actual, description) => {
   try {
     deepEquals(expected, actual)
   }
   catch (error) {
-    // Replace template literals (http://es6-features.org/#StringInterpolation)
+    // Replace template literals
     throw new Error(`${description ? description + ': ' : ''}${error.message}`)
   }
 }
 
-// Replace default parameter values (http://es6-features.org/#DefaultParameterValues)
+// Replace default parameter values
 const deepEquals = (a, b, trace='') => {
-  // Replace let (http://es6-features.org/#BlockScopedVariables)
+  // Replace let
   let typeA = getType(a)
   let typeB = getType(b)
 
@@ -31,7 +31,7 @@ const deepEquals = (a, b, trace='') => {
     throw new Error(`Expected array length ${a.length}, but found ${b.length}`)
 
   if (typeof a === 'object')
-    // Replace Set (http://es6-features.org/#SetDataStructure) and spread operators (http://es6-features.org/#SpreadOperator)
+    // Replace Set and spread operators
     new Set([...Object.keys(a), ...Object.keys(b)]).forEach(
       key => deepEquals(a[key], b[key], `${trace}${buildTrace(a, key)}`)
     )
@@ -48,9 +48,9 @@ const getType = x => {
 const buildTrace = (element, key) => element instanceof Array ? `[${key}]` : `.${key}`
 
 
-// Replace class definition (http://es6-features.org/#ClassDefinition)
+// Replace class definition
 class Test {
-  // Replace destructuring assignment (http://es6-features.org/#ObjectMatchingShorthandNotation)
+  // Replace destructuring assignment
   constructor({expected, actual, description}) {
     this.expected = expected
     this.actual = actual
