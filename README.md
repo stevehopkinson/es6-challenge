@@ -31,11 +31,9 @@ You probably won't have time to change all of the ES6 syntax in an hour, so don'
 
 The first time each ES6 feature appears in the code, you'll find a comment on the previous line telling you what features to look for, which you can look up in the list below to find a quick fix. It's up to you to identify any subsequent times that the feature gets used – but if you're running short on time, focus on replacing a variety of different ES6 features, rather than replacing the same feature in several places.
 
-The code makes use of the following features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest)
+The code makes use of several ES6 features. If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the following list – don't worry about the bottom half of the list, as this isn't a race. If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
 
-If you're not feeling hugely comfortable with ES6, then focus on understanding and replacing some of the features near the top of the list – don't worry about the bottom half of the list, as this isn't a race. If you already feel comfortable with ES6, feel free to skip ahead to some of the features at the end of the list – the two at the bottom are particularly challenging.
-
-The features are:
+The features (ordered by how difficult it will be to replace them with ES5, from easiest to hardest) are:
 
 - [block-scoped variables](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let): Declared with `let`. Similar to `var`s, but scoped to a single block (essentially the set of curly brackets it's declared in). **Quick fix**: Replace with a `var` and test that your code hasn't broken.
 
