@@ -33,7 +33,7 @@ const deepEquals = (a, b, trace='') => {
   if (typeof a === 'object')
     // Replace Set and spread operators
     new Set([...Object.keys(a), ...Object.keys(b)]).forEach(
-      key => deepEquals(a[key], b[key], trace + buildTrace(a, key));
+      key => deepEquals(a[key], b[key], trace + buildTrace(a, key))
     );
 }
 
